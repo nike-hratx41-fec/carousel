@@ -10,6 +10,7 @@ class Carousel extends React.Component {
         }
 
         // bind functions below
+        //added this comment
     }
 
     render() {
