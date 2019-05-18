@@ -1,0 +1,42 @@
+/* <--------- CAROUSEL STYLE ---------> */
+
+body {
+    font-family: "Helvetice Neue", Helvetica, Arial, sans-serif;
+    color: rgb(17, 17,17);
+    font-size: 14px
+}
+
+.shoe-name {
+    font-weight: bold
+}
+
+.colors {
+    box-shadow: rgb(221, 221, 221) 0px -1px 0px 0px inset;
+}
+
+img {
+    height: 350px;
+    width: 400px
+}
+
+
+
+
+
+/* <--------- FOOTER STYLE ---------> */
+
+#footer-nav {
+    color: #fff;
+    background-color: rgb(17, 17,17);
+}
+
+.footer-body {
+    display: flex;
+}
+
+.footer-accordion {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap
+}
+
