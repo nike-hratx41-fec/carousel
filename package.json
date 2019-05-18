@@ -10,7 +10,7 @@
   "scripts": {
     "start": "nodemon ./server/index.js",
     "react-dev": "webpack -d --watch",
-    "deploy": "pm2 deploy ecosystem.config.js production",
+    "deploy": "pm2 deploy ecosystem.config.js production --force",
     "restart": "pm2 startOrRestart ecosystem.config.js"
   },
   "dependencies": {
