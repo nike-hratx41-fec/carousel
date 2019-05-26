@@ -9,7 +9,13 @@ module.exports = {
                     loader: 'babel-loader'
                 }
             }
-        ]
+        ],
+        loaders: [
+            {
+                test: /\.(png|jpg)$/,
+                loader: 'url-loader?limit=25000'
+            }
+        ],
     },
     output: {
         filename: 'bundle.js',

@@ -6,37 +6,160 @@ body {
     font-size: 14px
 }
 
+h2 {
+    font-size: 18px;
+    line-height: 1.33333;
+    font-weight: 400;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+    text-align: left;
+    color: #111111;
+    padding: 20px 48px
+}
+
+.shoe {
+    line-height: 0.8;
+    font-size: 12px;
+    color: #111111;
+    cursor: pointer;
+    margin: 0px, 5px, 0px, 5px
+}
+
 .shoe-name {
-    font-weight: bold
+    font-size: 14px;
+    color: #111111;
+    font-weight: bold;
+    white-space: normal !important
 }
 
 .colors {
+    font-size: 12px;
+    color: #111111;
+    width: 95%;
+    padding: 10px 0px 10px 0px;
     box-shadow: rgb(221, 221, 221) 0px -1px 0px 0px inset;
 }
 
-img {
-    height: 350px;
-    width: 400px
+.category, .price {
+    font-size: 14px;
+    color: #8D8D8D
 }
 
+img {
+    height: 85%;
+    width: 95%;
+    overflow: hidden
+}
 
+.slick-prev {
+    left: 3% !important;
+    z-index: 1;
+    font-size: 75px;
+    height: 75px;
+    width: 75px
+  }
+  .slick-next {
+    right: 3% !important;
+    z-index: 1;
+    font-size: 75px
+  }
 
+.padding {
+    padding: 60px
+}
 
 
 /* <--------- FOOTER STYLE ---------> */
 
-#footer-nav {
+.nav-footer {
     color: #fff;
     background-color: rgb(17, 17,17);
 }
 
-.footer-body {
-    display: flex;
+.footer {
+    color: #fff;
+    background-color: rgb(17, 17,17);
+    margin: 0px 20px 0px;
+    padding-top: 40px
 }
 
-.footer-accordion {
+
+.subfooter {
     display: flex;
+    border-top: 1px solid #222;
+    align-items: center
+}
+
+.main-footer {
+    display: flex;
+    padding-bottom: 8px
+}
+
+.main-link {
+    color: white;
+    text-transform: uppercase;
+    font-size: 12px;
+    margin: 0px 0px 7px;
+    cursor: pointer
+}
+
+.minor-link {
+    color: #7E7E7E;
+    font-size: 10px;
+    margin: 0px 0px 7px;
+    cursor: pointer
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0px
+}
+
+.column {
+    width: 228px
+}
+
+.col-lg-6 {
+    display: inline-flex;
+    justify-content: flex-end;
+}
+
+.social-link {
+    display: inline-flex;
     flex-direction: row;
-    flex-wrap: nowrap
+    padding: 0px 3px 0px 3px;
+    color: #7E7E7E;
+    cursor: pointer
 }
 
+.guides, .copywright {
+    padding: 5px 0px 5px 0px
+}
+
+.guides-link, .copywright-link {
+    display: inline-flex;
+    padding: 5px;
+    font-size: 10px;
+    color: #7E7E7E;
+    margin: 0px 0px 3px;
+    cursor: pointer
+}
+
+.col {
+    border-top: 1px solid #222;
+}
+
+.guides {
+    display: inline-flex;
+    justify-content: flex-end;
+    width: 100%
+}
+
+.copywright {
+    justify-content: flex-start
+}
+
+#us {
+    color: white
+}
