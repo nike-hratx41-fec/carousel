@@ -17,10 +17,10 @@ const MainFooter = (props) => {
         // </div>
         <Container fluid="true">
             <Row>
-                <Col md={1} lg={2}><MainMenu /></Col>
-                <Col md={1} lg={2}><HelpCollapsibleMenu /></Col>
-                <Col md={1} lg={2}><AboutCollapsibleMenu /></Col>
-                <Col md={3} lg={6}><SocialFooter /></Col>
+                <Col sm={12} md={3} lg={2}><MainMenu /></Col>
+                <Col sm={12} md={3} lg={2}><HelpCollapsibleMenu /></Col>
+                <Col sm={12} md={3} lg={2}><AboutCollapsibleMenu /></Col>
+                <Col sm={12} md={3} lg={6} className="social"><SocialFooter /></Col>
             </Row>
         </Container>
     )

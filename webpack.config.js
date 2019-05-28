@@ -10,12 +10,6 @@ module.exports = {
                 }
             }
         ],
-        loaders: [
-            {
-                test: /\.(png|jpg)$/,
-                loader: 'url-loader?limit=25000'
-            }
-        ],
     },
     output: {
         filename: 'bundle.js',

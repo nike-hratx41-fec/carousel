@@ -116,13 +116,14 @@ ul {
     padding: 0px
 }
 
-.column {
-    width: 228px
-}
-
 .col-lg-6 {
     display: inline-flex;
     justify-content: flex-end;
+}
+
+.social {
+    display: inline-flex;
+    justify-content: flex-end
 }
 
 .social-link {
@@ -162,4 +163,23 @@ ul {
 
 #us {
     color: white
+}
+
+.social-link:hover, .guides-link:hover, .minor-link:hover {
+    color: white
+}
+
+@media (max-width: 768px) {
+    .social {
+        display: inline-flex;
+        justify-content: flex-start
+    }
+    .col {
+        border-top: 1px solid black
+    }
+    .guides {
+        display: flex;
+        flex-direction: column;
+        width: 100%
+    }
 }

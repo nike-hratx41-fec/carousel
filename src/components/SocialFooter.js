@@ -1,5 +1,5 @@
 import React from 'react';
-//const instagram = require('../../assets/images/instagram-logo.png')
+//import instagram from '../../assets/images/instagram-logo.png';
 
 const SocialFooter = (props) => {
     return (
