@@ -11,7 +11,7 @@ module.exports = {
             ref: 'origin/master',
             repo: 'git@github.com:nike-hratx41-fec/carousel.git',
             path: '/home/ubuntu/carousel',
-            'post-deploy': 'npm install && pm2 startOrRestart ecosystem.config.js  && cp /home/ubuntu/pw.js /home/ubuntu/carousel/source/database/pw.js'
+            'post-deploy': 'npm install && pm2 startOrRestart ecosystem.config.js'
         }
     }
 }
