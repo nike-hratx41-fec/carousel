@@ -1,8 +1,8 @@
 const mongoose = require('mongoose');
-const dbinfo = require('./dbinfo.js');
+const dbinfo = require('./pw.js');
 //const shoes = require('../../shoe-data-generator/shoeData.json');
 
-mongoose.connect(`mongodb+srv://${dbinfo.username}:${dbinfo.password}@davidguenther-pdt5c.mongodb.net/test?retryWrites=true`, { useNewUrlParser: true });
+mongoose.connect(`mongodb+srv://${dbinfo.user}:${dbinfo.pw}@davidguenther-pdt5c.mongodb.net/test?retryWrites=true`, { useNewUrlParser: true });
 // mongodb+srv://Dcguenther:<password>@davidguenther-pdt5c.mongodb.net/test?retryWrites=true
 
 let carouselSchema = mongoose.Schema({

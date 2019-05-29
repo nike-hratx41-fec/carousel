@@ -61,4 +61,4 @@ typings/
 .next
 
 # database
-dbinfo.js
+pw.js
