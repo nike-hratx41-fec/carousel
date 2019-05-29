@@ -1,13 +1,13 @@
 module.exports = {
     apps: [{
         name: 'carousel',
-        script: './server/index.js'
+        script: './server/index.js',
     }],
     deploy: {
         production: {
             user: 'ubuntu',
-            host: 'ec2-18-220-230-181.us-east-2.compute.amazonaws.com',
-            key: '~/.ssh/fike-carousel.pem',
+            host: 'ec2-3-88-248-205.compute-1.amazonaws.com',
+            key: '~/.ssh/fec.pem',
             ref: 'origin/master',
             repo: 'git@github.com:nike-hratx41-fec/carousel.git',
             path: '/home/ubuntu/carousel',
