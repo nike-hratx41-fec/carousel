@@ -21,3 +21,4 @@ const Subfooter = (props) => {
 }
 
 export default Subfooter;
+window.Subfooter = Subfooter;
