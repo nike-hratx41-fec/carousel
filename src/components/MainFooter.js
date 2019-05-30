@@ -1,8 +1,8 @@
 import React from 'react';
-import MainMenu from './MainMenu';
-import HelpCollapsibleMenu from './HelpCollapsibleMenu';
-import AboutCollapsibleMenu from './AboutCollapsibleMenu';
-import SocialFooter from './SocialFooter';
+// import MainMenu from './MainMenu';
+// import HelpCollapsibleMenu from './HelpCollapsibleMenu';
+// import AboutCollapsibleMenu from './AboutCollapsibleMenu';
+// import SocialFooter from './SocialFooter';
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
@@ -27,3 +27,4 @@ const MainFooter = (props) => {
 }
 
 export default MainFooter;
+window.MainFooter = MainFooter;

@@ -1,12 +1,21 @@
 module.exports = {
     entry: {
-        // __dirname + '/src/index.js',
-        carousel: __dirname + `/src/components/Carousel.js`,
-        footer: __dirname + `/src/components/Footer.js`,
-        guides: __dirname + `/src/components/Guides.js`,
-        subfooter: __dirname + `/src/components/Subfooter.js`
+        components: [
+            __dirname + `/src/components/Carousel.js`,
+            __dirname + `/src/components/Footer.js`,
+            __dirname + `/src/components/Guides.js`,
+            __dirname + `/src/components/Subfooter.js`,
+            __dirname + `/src/components/Copywright.js`,
+            __dirname + `/src/components/AboutCollapsibleMenu.js`,
+            __dirname + `/src/components/CarouselItem.js`,
+            __dirname + `/src/components/HelpCollapsibleMenu.js`,
+            __dirname + `/src/components/MainFooter.js`,
+            __dirname + `/src/components/MainMenu.js`,
+            __dirname + `/src/components/SocialFooter.js`,
+            __dirname + `/src/index.js`
+        ],
+        // renderer: __dirname + `/src/index.js`
     },
-
     output: {
         filename: '[name]-bundle.js',
         path: __dirname + '/public'

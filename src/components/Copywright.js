@@ -16,3 +16,4 @@ const Copywright = (props) => {
 }
 
 export default Copywright;
+window.Copywright = Copywright;

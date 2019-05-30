@@ -16,3 +16,4 @@ const HelpCollapsibleMenu = (props) => {
 }
 
 export default HelpCollapsibleMenu;
+window.HelpCollapsibleMenu = HelpCollapsibleMenu;

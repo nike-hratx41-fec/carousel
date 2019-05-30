@@ -19,3 +19,4 @@ const SocialFooter = (props) => {
 }
 
 export default SocialFooter;
+window.SocialFooter = SocialFooter;
