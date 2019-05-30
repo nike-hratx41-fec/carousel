@@ -19,3 +19,4 @@ const CarouselItem = (props) => {
 }
 
 export default CarouselItem;
+window.CarouselItem = CarouselItem;

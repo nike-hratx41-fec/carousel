@@ -1,11 +1,11 @@
 import React from 'react';
-//const flag = require("../../assets/images/us-flag.png");
+const flag = require("../../assets/images/us-flag.png");
 
 const Copywright = (props) => {
     return (
         <div className="copywright">
             <div className="copywright-link">
-                <span>Flag</span>
+                <span><img className="flag" src={flag} /></span>
                 <a id="us">United States</a>
             </div>
             <div className="copywright-link">
