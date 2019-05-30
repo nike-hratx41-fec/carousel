@@ -16,3 +16,4 @@ const AboutCollapsibleMenu = (props) => {
 }
 
 export default AboutCollapsibleMenu;
+window.AboutCollapsibleMenu;

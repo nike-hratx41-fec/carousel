@@ -13,3 +13,4 @@ const Guides = (props) => {
 }
 
 export default Guides;
+window.Guides = Guides;
