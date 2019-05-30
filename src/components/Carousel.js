@@ -3,7 +3,6 @@ import Slider from 'react-slick';
 import CarouselItem from './CarouselItem';
 import Footer from './Footer';
 import Axios from 'axios';
-import NextArrow from './NextArrow';
 
 class Carousel extends React.Component {
     constructor(props) {
