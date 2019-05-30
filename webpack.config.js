@@ -1,7 +1,8 @@
 module.exports = {
     entry: {
         // __dirname + '/src/index.js',
-        carousel: __dirname + `/src/components/Carousel.js`
+        carousel: __dirname + `/src/components/Carousel.js`,
+        footer: __dirname + `/src/components/Footer.js`
     },
 
     output: {

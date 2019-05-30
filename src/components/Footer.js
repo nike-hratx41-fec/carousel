@@ -12,3 +12,4 @@ const Footer = (props) => {
 }
 
 export default Footer;
+window.Footer = Footer;

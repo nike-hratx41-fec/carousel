@@ -17,3 +17,4 @@ const MainMenu = (props) => {
 }
 
 export default MainMenu;
+window.MainMenu = MainMenu;
