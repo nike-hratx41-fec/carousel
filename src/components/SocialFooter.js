@@ -1,6 +1,6 @@
 import React from 'react';
 const facebook = require('../../assets/images/Social-Facebook-Black.png');
-const twitter = require('../../assets/images/trans-twit.png');
+const twitter = require('../../assets/images/logo-twitter-png-47471.png');
 const youtube = require('../../assets/images/kisspng-youtube-computer-icons-logo-youtube-music-5b4ad100c4a514.3197520815316298248055.png');
 const instagram = require('../../assets/images/logo-instagram-png-13574.png');
 
