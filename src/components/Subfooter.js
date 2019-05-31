@@ -12,7 +12,7 @@ const Subfooter = (props) => {
         //     <div><Guides /></div>
         // </div>
         <Container fluid="true">
-            <Row>
+            <Row className="subfooters">
                 <Col><Copywright className="copywright" /></Col>
                 <Col><Guides className="guides" /></Col>
             </Row>

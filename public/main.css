@@ -167,10 +167,18 @@ ul {
         justify-content: flex-start;
     }
     .col {
-        border-top: 1px solid black
+        border-top: 1px solid black;
+        display: inline-flex;
+        flex-direction: column;
+        width: 100%
     }
-    .guides {
-        display: flex;
+    /* .guides, .copywright {
+        display: inline-flex;
+        flex-direction: column;
+        width: 100%
+    } */
+    .subfooters {
+        display: inline-flex;
         flex-direction: column;
         width: 100%
     }
