@@ -30,6 +30,7 @@ class Carousel extends React.Component {
             })
     }
 
+
     handleClick(event) {
         let parent = (event.target.parentNode);
         let sku = parent.getAttribute('sku');
@@ -39,6 +40,10 @@ class Carousel extends React.Component {
             this.setState({
                 shoe: sku
             });
+
+            const productClickEvent = new CustomEvent('productClick', { detail: { sku: sku } })
+            window.dispatchEvent(productClickEvent);
+
             Axios.get('/shoes')
                 .then((response) => {
                     this.setState({

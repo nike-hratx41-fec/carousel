@@ -54,20 +54,25 @@ img {
 .slick-prev {
     left: 3% !important;
     z-index: 1;
-    font-size: 75px;
-    height: 75px;
-    width: 75px
+    font-size: 75px !important;
+    height: 75px !important;
+    width: 75px !important
   }
-  .slick-next {
+
+.slick-next {
     right: 3% !important;
     z-index: 1;
     font-size: 75px
-  }
+}
 
 .padding {
     padding: 60px
 }
 
+button {
+    height: 75px !important;
+    width: 75px !important
+}
 
 /* <--------- FOOTER STYLE ---------> */
 
@@ -221,3 +226,5 @@ ul {
     width: 17px;
     padding-right: 5px;
 }
+
+/* <--------- COLLAPSE MENUS STYLE ---------> */
