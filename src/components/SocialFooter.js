@@ -9,10 +9,10 @@ const SocialFooter = (props) => {
     return (
         <div className="social-menu">
             <ul className="social-links">
-                <li className="social-link"><img className="twitter" src={twitter} /></li>
-                <li className="social-link"><img className="facebook" src={facebook} /></li>
-                <li className="social-link"><img className="youtube" src={youtube} /></li>
-                <li className="social-link"><img className="instagram" src={instagram} /></li>
+                <li className="social-link"><a href="https://twitter.com/nike?lang=en" ><img className="twitter" src={twitter} /></a></li>
+                <li className="social-link"><a href="https://www.facebook.com/nike/"><img className="facebook" src={facebook} /></a></li>
+                <li className="social-link"><a href="https://www.youtube.com/user/nike"><img className="youtube" src={youtube} /></a></li>
+                <li className="social-link"><a href="https://www.instagram.com/nike/?hl=en"><img className="instagram" src={instagram} /></a></li>
             </ul>
         </div>
     )
