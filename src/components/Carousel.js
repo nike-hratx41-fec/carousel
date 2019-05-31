@@ -44,7 +44,7 @@ class Carousel extends React.Component {
             const productClickEvent = new CustomEvent('productClickEvent', { detail: { sku: sku } })
             window.dispatchEvent(productClickEvent);
 
-            Axios.get('/shoes')
+            Axios.get('http://ec2-3-88-248-205.compute-1.amazonaws.com/shoes')
                 .then((response) => {
                     this.setState({
                         shoes: response.data
