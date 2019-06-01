@@ -67,6 +67,8 @@ class Carousel extends React.Component {
             centerPadding: "60px",
             slidesToShow: 3,
             speed: 500,
+            nextArrow: <NextArrow />,
+            prevArrow: <PrevArrow />,
         };
         return (
             <div>

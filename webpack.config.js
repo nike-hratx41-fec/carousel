@@ -12,6 +12,8 @@ module.exports = {
             __dirname + `/src/components/MainFooter.js`,
             __dirname + `/src/components/MainMenu.js`,
             __dirname + `/src/components/SocialFooter.js`,
+            __dirname + '/src/components/NextArrow.js',
+            __dirname + '/src/components/PrevArrow.js',
             __dirname + `/src/index.js`
         ],
         // renderer: __dirname + `/src/index.js`

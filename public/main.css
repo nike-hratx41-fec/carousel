@@ -51,27 +51,37 @@ img {
     overflow: hidden
 }
 
-.slick-prev {
-    left: 3% !important;
-    z-index: 1;
-    font-size: 75px !important;
-    height: 75px !important;
-    width: 75px !important
-  }
-
-.slick-next {
-    right: 3% !important;
-    z-index: 1;
-    font-size: 75px
-}
-
 .padding {
     padding: 60px
 }
 
-button {
-    height: 75px !important;
-    width: 75px !important
+
+/* <--------- ARROW STYLE ---------> */
+
+.slick-prev {
+    left: 3% !important;
+    z-index: 1;
+}
+
+.slick-next {
+    right: 3% !important;
+    z-index: 1;
+}
+
+.nextArrow, .prevArrow {
+    height: 12px;
+    width: auto;
+    display: flex
+}
+.slick-arrow:hover {
+  background-color: white !important
+}
+
+#carousel > div > div:nth-child(2) > div > div.slick-arrow.slick-next::before {
+    display: none !important;
+}
+#carousel > div > div:nth-child(2) > div > div.slick-arrow.slick-prev::before {
+    display: none !important;
 }
 
 /* <--------- FOOTER STYLE ---------> */
