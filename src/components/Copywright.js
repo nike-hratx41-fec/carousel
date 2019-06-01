@@ -5,7 +5,7 @@ const Copywright = (props) => {
     return (
         <div className="copywright">
             <div className="copywright-link">
-                <span><img className="flag" src={flag} /></span>
+                <span><img className="flag-footer" src={flag} /></span>
                 <a id="us">United States</a>
             </div>
             <div className="copywright-link">
