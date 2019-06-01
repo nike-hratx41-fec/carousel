@@ -9,12 +9,6 @@ import Col from 'react-bootstrap/Col';
 
 const MainFooter = (props) => {
     return (
-        // <div className="main-footer">
-        //     <div className="column"><MainMenu /></div>
-        //     <div className="column"><HelpCollapsibleMenu /></div>
-        //     <div className="column"><AboutCollapsibleMenu /></div>
-        //     <div><SocialFooter /></div>
-        // </div>
         <Container fluid="true">
             <Row>
                 <Col sm={12} md={3} lg={2}><MainMenu /></Col>

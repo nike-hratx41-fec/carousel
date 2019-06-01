@@ -13,8 +13,8 @@ const Subfooter = (props) => {
         // </div>
         <Container fluid="true">
             <Row className="subfooters">
-                <Col><Copywright className="copywright" /></Col>
-                <Col><Guides className="guides" /></Col>
+                <Col sm={12} md={6} lg={6}><Copywright className="copywright" /></Col>
+                <Col sm={12} md={6} lg={6}><Guides className="guides" /></Col>
             </Row>
         </Container>
     )

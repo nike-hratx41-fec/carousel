@@ -44,6 +44,7 @@ class Carousel extends React.Component {
             const productClickEvent = new CustomEvent('productClickEvent', { detail: { sku: sku } })
             window.dispatchEvent(productClickEvent);
 
+
             Axios.get('http://ec2-3-88-248-205.compute-1.amazonaws.com/shoes')
                 .then((response) => {
                     this.setState({
@@ -53,6 +54,8 @@ class Carousel extends React.Component {
                 .catch((err) => {
                     console.log('error mounting component', err);
                 })
+
+            window.scrollTo(0, 0);
         }
     }
 

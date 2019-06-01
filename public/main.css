@@ -99,7 +99,7 @@ img {
 }
 
 
-.subfooter {
+.subfooters {
     display: flex;
     border-top: 1px solid #222;
     align-items: center
@@ -131,11 +131,6 @@ ul {
     padding: 0px
 }
 
-.col-lg-6 {
-    display: inline-flex;
-    justify-content: flex-end;
-}
-
 .social {
     display: inline-flex;
     justify-content: flex-end
@@ -165,11 +160,17 @@ ul {
 }
 
 .copywright {
-    justify-content: flex-start
+    display: inline-flex;
+    justify-content: flex-start !important;
 }
 
 #us {
     color: white
+}
+
+#carousel > div > div.nav-footer > div > div:nth-child(2) > div > div > div:nth-child(1) {
+    display: inline-flex;
+    justify-content: flex-start !important;
 }
 
 .social-link:hover, .guides-link:hover, .minor-link:hover {
@@ -180,6 +181,7 @@ ul {
     .social {
         display: inline-flex;
         justify-content: flex-start;
+        margin-top: 20px;
     }
     .col {
         border-top: 1px solid black;
@@ -187,11 +189,11 @@ ul {
         flex-direction: column;
         width: 100%
     }
-    /* .guides, .copywright {
+    .guides-link {
         display: inline-flex;
         flex-direction: column;
         width: 100%
-    } */
+    }
     .subfooters {
         display: inline-flex;
         flex-direction: column;
@@ -200,6 +202,18 @@ ul {
     li.social-link {
         margin-right: 20px;
         margin-left: 0
+    }
+    .guides {
+        display: inline-flex;
+        flex-direction: column;
+        justify-content: flex-start
+    }
+    .copywright {
+        flex-direction: column;
+        margin-top: 20px
+    }
+    .subfooters {
+        border-top: none;
     }
 }
 
@@ -216,6 +230,7 @@ ul {
     width: 21px;
     align-items: center;
     justify-content: center;
+    margin-right: 20px
 }
 
 .youtube, .instagram, .twitter, .facebook {
