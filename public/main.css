@@ -250,6 +250,8 @@ ul {
     height: 15px;
     width: 17px;
     padding-right: 5px;
+    margin-right: 0px;
+    margin-left: 0px
 }
 
 /* <--------- COLLAPSE MENUS STYLE ---------> */
